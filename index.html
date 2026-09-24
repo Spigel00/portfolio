@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashwat N</title>
+    <meta
+      name="description"
+      content="Portfolio of Ashwat N — engineer, builder, and writer focused on AI systems, backend development and useful software."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#top" aria-label="Ashwat home">ASHWAT.N</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Engineer · Developer · Builder</p>
+          <h1 id="hero-heading">
+            I build<br />
+            <span class="accent">useful things.</span>
+          </h1>
+          <p class="hero-description">
+            "I'm a Computer Science student who likes understanding a problem before reaching for a model. Most days that means AI systems, backend code, a stubborn bug, or a new idea that refuses to leave me alone."
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View my work ↓</a>
+            <a class="button btn-secondary" href="/home/jiraiya_toadsage/Documents/portfolio/Ashwat_N_FlowCV_Resume_2026-09-23.pdf" download>Download resume</a>
+            <a class="button btn-secondary" href="mailto:ashwat565@gmail.com">Email me</a>
+          </div>
+        </div>
+
+        <aside class="terminal-card" aria-label="Developer notes terminal">
+          <div class="terminal-toolbar" aria-hidden="true">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <pre class="terminal-text"><span class="prompt">$</span> cat ashwat.txt
+
+<span class="label">likes</span> = ["building", "writing", "learning"]
+<span class="label">usually</span> = "Python + coffee + too many tabs"
+<span class="label">curious_about</span> = ["AI", "systems", "people"]
+<span class="label">belief</span> = "good software should feel useful"
+
+<span class="terminal-secondary">$ echo "still figuring it out."</span></pre>
+        </aside>
+      </section>
+
+      <section id="work" class="section container" aria-labelledby="work-heading">
+        <div class="section-header">
+          <h2 id="work-heading">Selected work</h2>
+        </div>
+        <p class="section-description">
+          "A few projects that show how I approach AI, data and software engineering."
+        </p>
+
+        <div class="work-grid">
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-index">01</span>
+            </div>
+            <h3>Hokorobi</h3>
+            <p>
+              "AI-powered developer problem discovery pipeline that turns online technical discussions into structured, developer-ready problem statements using NLP, embeddings and RAG."
+            </p>
+            <div class="tags" aria-label="Project tags">
+              <span>Python</span>
+              <span>Transformers</span>
+              <span>MiniLM</span>
+              <span>RAG</span>
+              <span>FLAN-T5</span>
+            </div>
+            <a href="https://github.com/Spigel00/hokorobi" target="_blank" rel="noreferrer">View project ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-index">02</span>
+            </div>
+            <h3>AI Behaviour Analysis System</h3>
+            <p>
+              "Real-time facial-expression analysis and automated reporting system combining computer vision, behavioural analysis and a backend case-management workflow."
+            </p>
+            <div class="tags" aria-label="Project tags">
+              <span>OpenCV</span>
+              <span>DeepFace</span>
+              <span>Gemini</span>
+              <span>Flask</span>
+              <span>Firebase</span>
+            </div>
+            <a href="https://github.com/Spigel00/Emotional_analysis" target="_blank" rel="noreferrer">View project ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-index">03</span>
+            </div>
+            <h3>AI-Powered Plasma Reactor</h3>
+            <p>
+              "Built a linear surrogate model mapping tokamak coil-current inputs to plasma observables, with an RL-ready control interface for plasma-control experiments."
+            </p>
+            <div class="tags" aria-label="Project tags">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>NumPy</span>
+              <span>Pandas</span>
+              <span>TORAX</span>
+            </div>
+            <a href="https://github.com/Spigel00/plasma_reactor" target="_blank" rel="noreferrer">View project ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="human" class="section container" aria-labelledby="human-heading">
+        <div class="human-header">
+          <h2 id="human-heading">Beyond the stack</h2>
+          <p class="section-subhead">The part of me that doesn't fit neatly into a skills section.</p>
+        </div>
+        <div class="human-grid">
+          <div class="human-card human-essay">
+            <p>
+              "I like technology, but I don't really think of myself as someone who just
+              <strong>likes technology</strong>. I like making things. Sometimes that's a small app,
+              sometimes a weird experiment, sometimes a poem or a story that has nothing to do with code.
+              I think that habit of making things keeps me curious — and curiosity is probably the skill I
+              use most."
+            </p>
+          </div>
+
+          <div class="human-card human-list">
+            <ul>
+              <li>Writes poetry and stories when an idea won't shut up.</li>
+              <li>Enjoys films, anime and stories that leave something to think about.</li>
+              <li>Plays basketball and still believes the next shot is going in.</li>
+              <li>Interested in AI, software systems and the human problems underneath them.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section container" aria-labelledby="experience-heading">
+        <div class="section-header">
+          <h2 id="experience-heading">Experience</h2>
+        </div>
+        <p class="section-description">"Hands-on industry experience building AI-oriented software workflows."</p>
+
+        <div class="experience-card">
+          <div class="experience-side">
+            <p class="date">Jan 2026 — Sep 2026</p>
+            <p class="location">Coimbatore, India</p>
+          </div>
+
+          <div class="experience-body">
+            <h3>AI / Software Intern · TNQ Tech</h3>
+            <ul>
+              <li>Worked with LLMs, VLMs and OCR systems for AI-based data processing.</li>
+              <li>Developed VLM-based image understanding and structured data extraction pipelines.</li>
+              <li>Built AI workflows involving LLM processing, OCR and audio/transcription.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container" aria-labelledby="skills-heading">
+        <div class="section-header">
+          <h2 id="skills-heading">Toolkit</h2>
+        </div>
+        <p class="section-description">"Tools I use across AI engineering, backend development and data systems."</p>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>AI / ML</h3>
+            <p>LLMs · VLMs · RAG · Agentic AI · NLP · Computer Vision · OCR · PyTorch · TensorFlow · Scikit-learn</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Backend / Data</h3>
+            <p>Python · FastAPI · SQLAlchemy · PostgreSQL · MySQL · FAISS · ChromaDB · SQL</p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Developer Tools</h3>
+            <p>Git · GitHub · Firebase · VS Code · MCP · ADK</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container" aria-labelledby="contact-heading">
+        <div class="contact-card">
+          <div class="contact-content">
+            <h2 id="contact-heading">Let's build something useful.</h2>
+            <p class="contact-subtitle">Open to AI engineering, developer and software opportunities.</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:ashwat565@gmail.com">ashwat565@gmail.com</a>
+            <a href="https://github.com/Spigel00" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/ashwat-n-88" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <div>© 2026 Ashwat N</div>
+      <div>Built with HTML, CSS &amp; curiosity.</div>
+    </footer>
+  </body>
+</html>
